@@ -11,7 +11,7 @@ bot = lightbulb.BotApp(
     intents=hikari.Intents.ALL,
     default_enabled_guilds=(848155636549156864)
 )
-bot.load_extensions_from("./extensions/")
+bot.load_extensions_from("./extensions")
 
 keep_alive.keep_alive()
 bot.run()
